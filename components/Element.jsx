@@ -108,7 +108,6 @@ const Element = ({ coordsFormMaps, atribute: { type, label, hint, required, attr
                 attribute={name === "" ? attribute : ""}
                 label={label}
                 required={required}
-                hint={hint}
                 typeList={options}
                 name={name}
                 value={values}

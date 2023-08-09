@@ -7,6 +7,7 @@ export default function FormCard({ children, currentStep, totalSteps }) {
           return (
             <div key={i} className={currentStep === i ? 'StepContainerCurrent' : 'StepContainer'}>
               <span className="steptitle">{i + 1}</span>
+              <span className="steptitle">{i + 1}</span>
             </div>
           )
 

@@ -1,0 +1,13 @@
+#container {
+    background-color: #F5F5F5;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 20px;
+}
+
+#body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,311 @@
+@import "~material-symbols/outlined.css";
+
+.whiteContainer {
+    background-color: white;
+    height: 100%;
+    padding: 30px;
+}
+
+.action_div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+
+    >p {
+        font-family: 'Material Symbols Outlined', sans-serif;
+        cursor: pointer;
+    }
+}
+
+.options_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+
+    >p {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #9E977F;
+        margin: 0;
+        cursor: pointer;
+
+        >span {
+            font-family: 'Material Symbols Outlined', sans-serif;
+        }
+    }
+}
+
+.options_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    >p {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-items: center;
+        color: #0B8E54;
+        margin: 0;
+        cursor: pointer;
+
+        >span {
+            font-family: 'Material Symbols Outlined', sans-serif;
+            font-size: 22px;
+        }
+    }
+}
+
+.denied {
+    background-color: white;
+    border: 1px solid #0B8E54;
+    padding: 15px 40px;
+    border-radius: 60px;
+    color: #0B8E54;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.denied_grayed {
+    background-color: lighten($color: gray, $amount: 40);
+    border: 1px solid gray;
+    padding: 15px 40px;
+    border-radius: 60px;
+    color: gray !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.approve {
+    background-color: #0B8E54;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 60px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.approve_grayed {
+    background-color: grayscale($color: #0B8E54);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 60px;
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.accordion {
+    > input[type="checkbox"] {
+        appearance: none;
+    }
+    > input:checked ~div {
+        max-height: max-content;
+        opacity: 1;
+        padding: 25px 25px;
+    }
+    >div {
+        border: 1px solid #E5E3DC;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 0px;
+        padding: 25px;
+        transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+}
+
+.grid_div {
+    >h4 {
+        color: #9E977F;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    >span {
+        color: #0D3331;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0D333182;
+    display: grid;
+    place-content: center;
+
+    >div {
+        background-color: #FEFEFC;
+        border: 1px solid #BDB8A8;
+        border-radius: 20px;
+        padding: 50px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        >p {
+            margin: 0;
+        }
+
+        >textarea {
+            width: 100%;
+        }
+
+        >div {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+        }
+    }
+}
+
+.popup_cancel {
+    border: 1px solid #0B8E54;
+    border-radius: 60px;
+    padding: 15px 42px;
+    background: white;
+    color: #0B8E54;
+}
+
+.popup_continue {
+    border: none;
+    border-radius: 60px;
+    padding: 15px 42px;
+    background: #0B8E54;
+    color: white;
+}
+
+.status_pending {
+    color: #EE8700;
+}
+
+.status_declined {
+    color: #D10000;
+}
+
+.status_approved {
+    color: #0B8E54;
+}
+
+.eye {
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-size: 20px;
+    color: #0D3331;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.checkbox_accordion {
+    margin: 0;
+    border: 1px solid #E5E3DC;
+    color: #0B8E54;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    >span {
+        font-family: 'Material Symbols Outlined', sans-serif;
+        font-size: 20px;
+        color: #0D3331;
+        font-weight: 700;
+    }
+
+    ~div {
+        max-height: 0px;
+        overflow: hidden;
+        padding: 0px 25px;
+        opacity: 0;
+    }
+}
+
+.map_div {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.map_map {
+    grid-column: 1/3;
+
+    >h4 {
+        color: #9E977F;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.title_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title_pending {
+    color: #EE8700;
+    font-size: 12px;
+    font-family: Pragmatica;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    > span {
+        color: #0D3331;
+        font-size: 16px;
+        font-family: Pragmatica;
+        font-weight: 500;
+    }
+}
+
+.confirm_swal_button {
+    margin-left: 10px;
+    border-radius: 60px;
+    border: none;
+    background: #0B8E54;
+    padding: 15px 42px;
+    color: #FFF;
+    text-align: center;
+    font-family: Pragmatica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cancel_swal_button {
+    border-radius: 60px;
+    border: 1px solid #0B8E54;
+    background: white;
+    color: #0B8E54;
+    font-family: Pragmatica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px 42px;
+}

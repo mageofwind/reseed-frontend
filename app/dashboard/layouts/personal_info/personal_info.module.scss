@@ -1,0 +1,161 @@
+#whiteContainer {
+    background-color: white;
+    height: 100%;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    > h1 {
+        font-size: 30px;
+        font-weight: 500;
+        color: #0D3331;
+    }
+
+    > div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+.btn_cancel {
+    border: 2px solid #009345;
+    background-color: white;
+    border-radius: 8px;
+    color: #009345;
+    padding: 10px 20px;
+}
+
+.btn_save {
+    background-color: #009345;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+#sec2 {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 60px;
+    padding: 40px 35px;
+}
+
+#photo_container {
+    background-color: #FCFBF5;
+    border-radius: 11px;
+    padding: 25px;
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+#photo {
+    position: relative;
+    width: 36%;
+    border: 1px solid #BDB8A8;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 50%;
+
+    &::after {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 34%;
+        height: 34%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+#photo_btns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.upload {
+    background-color: #9E977F;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 26px;
+}
+
+.reseat {
+    background-color: white;
+    color: #9E977F;
+    border-radius: 8px;
+    border: 1px solid #9E977F;
+    padding: 10px 26px;
+}
+
+#photo_form {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    > li {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        > label {
+            color: #0D3331;
+            font-weight: 500px;
+            font-size: 16px;
+        }
+
+        > input {
+            font-weight: 500;
+            font-size: 16px;
+            border: 1.5px solid #BDB8A8;
+            border-radius: 8px;
+            height: 48px;
+            width: 70%;
+            min-width: 416px;
+            padding-left: 10px;
+            color: #0D3331;
+        }
+    }
+}
+
+#pass_reset {
+    padding: 40px 35px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    > h1 {
+        color: #0D3331;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    > p {
+        font-family: Pragmatica-Light;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 23px;
+        color: #0D3331;
+        white-space: normal;
+    }
+}

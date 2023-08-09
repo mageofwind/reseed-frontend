@@ -1,0 +1,102 @@
+.client_main_container_form {
+    max-width: 900px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.SignFormContaier{
+    padding-left:  60px;
+    padding-right: 60px;
+}
+@media (max-width: 800px) {
+    .client_main_container_form {
+        width: 62%;
+    }
+    .su_question{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .client_main_container_form {
+        width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .client_main_container_form {
+        width: 80%;
+    }
+    .su_question{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.icon_reseed_container_form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.welcome_title_form_client {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Pragmatica;
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
+
+.input_form_auth {
+    font-family: Pragmatica;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+}
+.input_form_auth::placeholder {
+    color: #BDB8A8
+}
+
+.btn_signup {
+    padding: 14px 68px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 18.98px;
+}
+
+.btn_signup_container {
+    display: flex;
+    justify-content: center;
+    padding: 3.25em 0;
+}
+.btn_password_container{
+    padding-top: 23px;
+    padding-bottom: 45px;
+}
+.btn_resetpass_container{
+    padding-top: 23px;
+    padding-bottom: 25px;
+}
+.doyouhaveanaccount_text {
+    font-family: 'Pragmatica-Light';
+    font-size: 18px;
+    line-height: 23px;
+    margin-right: 2px;
+    font-weight: 200;
+}
+.signin_text{
+    text-decoration: underline;
+    font-family: Pragmatica;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 10px;
+}
+.su_question{
+    display: flex;
+    justify-content: center;
+}

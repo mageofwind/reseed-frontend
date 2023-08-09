@@ -1,0 +1,145 @@
+#container {
+    position: sticky;
+    top: 0;
+    width: fit-content;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 15%;
+    background-color: white;
+    box-shadow: 10px 0px 30px #E5E3DC;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    gap: 30px;
+    padding: 27px;
+}
+#container p {
+    margin: 0;
+}
+
+#logo {
+    width: 100%;
+    height: fit-content;
+}
+
+#categories {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#listtop {
+    margin-top: 0px;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 30px;
+
+    input {
+        appearance: none;
+    }
+
+    p {
+        color: #0D3331;
+    }
+}
+
+.sublist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+
+    input {
+        appearance: none;
+    }
+
+    p {
+        color: #0D3331;
+    }
+}
+.countdata {
+    position: relative;
+    background-color: #EE8700;
+    border-radius: 50%;
+    width: 25px;
+
+    > p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0;
+    }
+    &::after {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+}
+.subcatimg {
+    position: relative;
+    background-color: #005431;
+    border-radius: 50%;
+    width: 30px;
+    overflow: hidden;
+
+    >p {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+}
+
+.selected {
+    background-color: #F6F3E8;
+    border-radius: 50px;
+}
+
+.list_img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#geardiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings_div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.plusBtn {
+    background: #009345;
+    border-radius: 10px;
+    padding: 12px 30px;
+    border: none;
+    color: white;
+    width: 100%;
+}

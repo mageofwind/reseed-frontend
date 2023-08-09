@@ -1,0 +1,55 @@
+.StyledModalBody{
+    padding-top: 10px;
+    color: #0D3331 ;
+    font-size: 18px;
+    line-height: 21.35px;
+    text-align: center;
+}
+.StyledModalHeader{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}  
+.StyledModal{
+    background: white;
+    max-width: 460px;
+    border-radius: 15px;
+    padding: 50px 65px;
+}
+.StyledModalOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); 
+} 
+.StyledModalTitle{
+    color: #0D3331;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42.7px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.imageModal_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_modal_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn_loginModal{
+    background: #0B8E54;
+    color: #FFFFFF;
+    border-radius: 30px;
+    padding: 15px 50px;
+    border: none;
+}

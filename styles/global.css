@@ -1,0 +1,41 @@
+@import "~material-symbols/outlined.css";
+
+@font-face {
+    font-family: Pragmatica;
+    src: url('./fonts/PragmaticaMedium.otf');
+}
+@font-face {
+    font-family: Pragmatica-Light;
+    src: url('./fonts/Pragmatica-ExtraLight.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Pragmatica;
+}
+
+.material_symbols {
+    font-family: 'Material Symbols Outlined', sans-serif;
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid #BDB8A8;
+}
+
+.accordion-body {
+    padding-bottom: 2.6875rem!important;
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+}
+
+.ant-tabs-tab-active {
+    >svg {
+        >path {
+            fill: #0D3331;
+        }
+    }
+}
+
+

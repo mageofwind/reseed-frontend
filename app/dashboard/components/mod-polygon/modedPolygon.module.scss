@@ -1,0 +1,47 @@
+.title_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+
+    >div {
+        >h1 {
+            color: #7A735C;
+            font-size: 14px;
+            font-family: Pragmatica;
+            font-weight: 500;
+        }
+
+        >h2 {
+            color: #9E977F;
+            font-size: 16px;
+            font-family: Pragmatica;
+            font-weight: 500;
+        }
+    }
+
+    >p {
+        position: relative;
+        width: 50px;
+        border-radius: 50%;
+        background: #F6F3E8;
+        margin: 0;
+        cursor: pointer;
+
+        > img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            height: 60%;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            padding-top: 100%;
+        }
+    }
+}

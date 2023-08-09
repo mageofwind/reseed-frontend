@@ -1,0 +1,35 @@
+.rdg {
+    height: auto;
+    border: none;
+    background: transparent;
+}
+.rdg-header-row {
+    background: #9E977F !important;
+    color: white;
+    
+    > div {
+        border: none !important;
+        padding-left: 30px;
+    }
+
+    .rdg-cell:nth-child(1) {
+        border-radius: 10px 0px 0px 10px;
+    }
+    .rdg-cell:nth-last-child(1) {
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+.rdg-row {
+    background: white !important;
+    color: black;
+    > div {
+        border: none;
+        border-bottom: 1px solid #E5E3DC;
+        color: #0D3331;
+        font-family: "Pragmatica";
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

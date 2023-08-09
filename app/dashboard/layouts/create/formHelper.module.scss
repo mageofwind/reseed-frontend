@@ -1,0 +1,154 @@
+.input_div {
+    display: flex;
+    flex-direction: column;
+
+    > label {
+        color: #7A735C;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 10px;
+    }
+
+    > input {
+        border: 1px solid #BDB8A8;
+        border-radius: 6px;
+        padding: 0px 14px;
+        color: #9E977F;
+        font-size: 16px;
+        font-weight: 500;
+        height: 50px;
+    }
+
+    > textarea {
+        padding: 5px 14px;
+        border: 1px solid #BDB8A8;
+        border-radius: 6px;
+        color: #9E977F;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.select_div_dyn {
+    display: flex;
+    flex-direction: column;
+
+    > label {
+        color: #7A735C;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 10px;
+    }
+
+    > select {
+        border: 1px solid #BDB8A8;
+        border-radius: 6px;
+        padding: 0px 14px;
+        color: #9E977F;
+        font-size: 16px;
+        font-weight: 500;
+        height: 50px;
+    }
+}
+
+.select_div_static {
+    display: flex;
+    flex-direction: column;
+
+    > label {
+        color: #7A735C;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 10px;
+    }
+
+    > select {
+        border: 1px solid #BDB8A8;
+        border-radius: 6px;
+        padding: 0px 14px;
+        color: #9E977F;
+        font-size: 16px;
+        font-weight: 500;
+        height: 50px;
+    }
+}
+
+.boolean_div {
+    display: flex;
+    flex-direction: column;
+    color: #7A735C;
+    font-size: 14px;
+    font-family: Pragmatica;
+    font-weight: 500;
+
+    > label {
+        padding: 5px 10px;
+    }
+
+    > div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        > span {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+    }
+}
+
+.multi_div {
+    display: flex;
+    flex-direction: column;
+
+    > h3 {
+        color: #7A735C;
+        font-size: 14px;
+        font-family: Pragmatica;
+        font-weight: 500;
+    }
+
+    > div {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        gap: 0px 20px;
+
+        > label {
+            color: #7A735C;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 5px 10px;
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+    }
+}
+
+.date_div {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    > label {
+        color: #7A735C;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 10px;
+    }
+
+    > input {
+        border: 1px solid #BDB8A8;
+        border-radius: 6px;
+        padding: 0px 14px;
+        color: #9E977F;
+        font-size: 16px;
+        font-weight: 500;
+        height: 50px;
+
+        &::-webkit-calendar-picker-indicator {
+            color: #BDB8A8;
+        }
+    }
+}

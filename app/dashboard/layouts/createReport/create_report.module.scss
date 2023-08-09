@@ -1,0 +1,231 @@
+#whiteContainer {
+	background-color: white;
+	height: 100%;
+	padding: 30px;
+
+	> div {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+		> h1 {
+			margin: 0;
+		}
+	}
+}
+
+.submitBtn{
+    padding: 12px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #009345;
+    color: white;
+    font-size: 14px;
+    background: #009345;
+    line-height: 17px;
+}
+
+.cancelBtn{
+	padding: 12px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #009345;
+    color: #0B8E54;
+    font-size: 14px;
+    background: white;
+}
+
+.status {
+	color: #9e977f;
+    font-size: 14px;
+}
+
+.pendingBtn{
+    margin-left: 10px;
+    background-color: #EE8700;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.approvedBtn{
+    margin-left: 10px;
+    background-color: #0B8E54;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.rejectedBtn{
+    margin-left: 10px;
+    background-color: #D10000;
+    border-radius: 50%;
+    width: 20px;    
+    height: 20px;
+}
+
+
+.submittedBtn { 
+	background: #009345;
+	margin-left: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.switch-report-type-btn {
+    color: #9E977F;
+    text-align: center;
+    font-family: Pragmatica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 3px;
+    text-decoration: none;
+    path {
+        fill: #9E977F;
+    }
+    &__active {
+        path {
+            fill: #005431;
+        }
+        color: #005431;
+        text-decoration: underline;
+        img {
+            filter: invert(24%) sepia(13%) saturate(4295%) hue-rotate(115deg) brightness(95%) contrast(103%);
+        }
+    }
+}
+
+.monitoringBtn{
+
+    text-align: center;
+    font-family: Pragmatica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.lviBtn{
+    color: #9E977F;
+    text-align: center;
+    font-family: Pragmatica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+.cancelSvg{
+    position: absolute;
+    color: white;
+    top: -12px;
+    left: 12px;
+    width: 16px;
+    height: 44px;
+}
+
+.backSvg{
+    width: 9px;
+    height: 5px;
+    color: #9E977F;
+}
+
+.monitoringSvg{
+    width: 14px;
+    height: 20px;
+    color: #9E977F;
+}
+
+.lviSvg{
+    width: 19px;
+    height: 22px;
+}
+
+.flex{
+    display: flex;
+}
+
+.pending_font{
+    font-family: 'Pragmatica';
+    font-size: 12px;
+    margin-left: 5px;  
+    color: #EE8700;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.approved_font{
+    font-family: 'Pragmatica';
+    font-size: 12px;
+    margin-left: 5px;  
+    color: #0B8E54;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.rejected_font{
+    font-family: 'Pragmatica';
+    font-size: 12px;
+    margin-left: 10px;  
+    color: #D10000;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.submitted_font{
+    font-family: 'Pragmatica';
+    font-size: 12px;
+    margin-left: 10px;  
+    color: #0B8E54;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.confirm_swal_button {
+    margin-left: 10px;
+    border-radius: 60px;
+    border: none;
+    background: #0B8E54;
+    padding: 15px 42px;
+    color: #FFF;
+    text-align: center;
+    font-family: Pragmatica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cancel_swal_button {
+    border-radius: 60px;
+    border: 1px solid #0B8E54;
+    background: white;
+    color: #0B8E54;
+    font-family: Pragmatica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px 42px;
+}
+
+.backBtn{
+    color: #9E977F;
+    font-family: Pragmatica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    align-self: center;
+    cursor: pointer;
+    margin-right:20px;
+}

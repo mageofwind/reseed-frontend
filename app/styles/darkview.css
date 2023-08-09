@@ -1,0 +1,138 @@
+.darkBackground{
+    background-image: url(../../assets/backgrounds/dark_background.png);
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding:0;
+    min-height: 100vh;
+    background-size: cover;
+}
+.layout_client_form_container {
+    background-image: url(../../assets/backgrounds/dark_background.png);
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+}
+.borderContainer{
+    border: 1px solid;
+    border-color: #005431;
+    border-radius: 25px;
+    background-color: #0D3331;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.welcome_title_form_client {
+    color: #FBFCF5;
+}
+.input_form_auth {
+    color: #BDB8A8;
+    border: 1px solid #BDB8A8;
+    background: none;
+}
+.btn_signup {
+    background-color: #87DF90;
+    color:#0D3331;
+}
+.doyouhaveanaccount_text {
+    color: #FBFCF5;
+}
+.signin_text{
+    color: #FBFCF5;
+}
+
+.si_bottom_text{
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 22.91px;
+    font-family: Pragmatica-Light;
+    color: #FBFCF5;
+}
+.si_bottom_text a{ 
+    color: #FBFCF5;
+}
+.si_bottom_text a:hover{ 
+    color: #FBFCF5;
+}
+.email_text_recover{
+    color: #FBFCF5;
+}
+.account_created_text{
+    color: #FBFCF5;
+}
+.si_termofusespan{
+    color: #FBFCF5;
+}
+.tryAgain a{
+    text-decoration: none;
+    color: #FBFCF5;
+}
+.tryAgain a:hover{
+    text-decoration: underline;
+    color: #FBFCF5;
+}
+.invalidEmail{
+    text-align: center;
+    margin:auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.invalidText{
+    color:#FFBB37;
+    border: 1px solid #FFBB37;
+    font-size: 14px;
+    padding:10px
+}
+.signUpContainer{
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.passWordContainer{
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.signUpForm{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.forgotForm{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.swal2-styled.swal2-confirm {
+    border: 0;
+    border-radius: 30px !important;
+    background: initial;
+    background-color: #0B8E54 !important;
+    color: #fff;
+    font-size: 16px !important;
+    font-family: Pragmatica !important;
+    font-weight:500 !important;
+    padding:15px 50px !important;
+}
+.swal2-html-container{
+    color: #0D3331 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 21px !important;
+}
+.swal2-title{
+    color: #0D3331 !important;
+    font-size: 36px !important;
+    font-weight: 500 !important;
+    line-height: 42px !important;
+}
+.loginbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,100 @@
+#user_container {
+    position: relative;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    gap: 15px;
+    
+    p {
+        margin: 0;
+    }
+
+    &:focus > #user_dropdown{
+        max-height: 500px;
+        opacity: 1;
+        transition-property: opacity, max-height;
+        transition-duration: 1s, 1.5s;
+
+        > ul {
+            transform: translateY(0);
+        }
+    }
+}
+
+#user_image {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #0B8E54;
+    display: grid;
+    place-content: center;
+
+    > p { color: white; }
+}
+
+#user_name {
+    min-width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: #0D3331;
+}
+
+#user_dropdown {
+    position: absolute;
+    top: calc(100% + 5px);
+    height: fit-content;
+    width: 100%;
+    border: 1px solid #E5E3DC;
+    background-color: white;
+    border-radius: 8px;
+    z-index: 10;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition-property: opacity, max-height;
+    transition-duration: 0.1s, 0.5s;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        transform: translateY(-100%);
+        transition-property: transform;
+        transition-duration: 1s;
+
+        p {
+            color: #0D3331;
+        }
+    }
+}
+
+.user_list {
+    cursor: pointer;
+    padding: 5px 15px;
+    display: flex;
+
+    &.selected {
+        background-color: #F6F3E8;
+        border-radius: 50px;
+    }
+
+    input {
+        appearance: none;
+    }
+}
+
+.user_logout_buton_jlcc > button {
+    border-radius: 8px;
+    background: #009345;
+    border: none;
+    width: 100%;
+    padding: 5px 0px;
+    color: white;
+}

@@ -1,0 +1,44 @@
+.si_more_margin_top{
+    margin-top: 2em;
+}
+
+.email_text_recover{
+    font-size: 16px;
+    line-height: 18.98px;
+    font-weight: 500;
+}
+.account_created_text{
+    font-size: 21px;
+    line-height: 24.91px;
+    font-weight: 500;
+}
+.si_termofusespan{
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 22.91px;
+    font-family: Pragmatica-Light;
+}
+.btn_sigin_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.btn_login_container{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+} 
+.client_main_container_form_signin{
+    max-width: 420px;
+}
+.client_main_container_form_password{
+    max-width: 550px;
+}
+.btn_signin{
+    width: 100%;
+}
+.form_pass_container{
+    max-width: 400px;
+    margin: auto;
+}

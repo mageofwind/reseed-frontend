@@ -1,0 +1,55 @@
+.Home_Container{
+    background-image: url(../../assets/backgrounds/dark_background.png);
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding:0;
+    min-height: 100vh;
+    background-size: cover;
+}
+.icon_reseed_container_form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.interContainer{
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.borderContainer{
+    border: 1px solid;
+    border-color: #005431;
+    border-radius: 25px;
+    background-color: #0D3331;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.btn_companie_container{
+    display: flex;
+    justify-content: center;
+    padding: 1.25em 0;
+}
+
+.btn_homePage {
+    background-color: #87DF90;
+    color:#0D3331;
+    padding: 14px 68px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 18.98px;
+}
+.welcome_title{
+    color: #FBFCF5;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.icon_reseed_container_form_home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

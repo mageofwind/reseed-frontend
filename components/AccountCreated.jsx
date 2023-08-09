@@ -21,6 +21,10 @@ export default function AccountCreated({ setNewUser, newUser }) {
                     <p className="account_created_text text-center mt-4">
                         To complete the registration, continue to provide the following corporate information
                     </p>
+                    <p className="account_created_text text-center mt-4">
+                        To complete the registration, continue to provide the following corporate information
+                    </p>
+                    
 
                     <div className="btn_next_newAccount">
                         <button className="btn_signup btn_signin" onClick={() => setNewUser(false)}>Next to Continue</button>
